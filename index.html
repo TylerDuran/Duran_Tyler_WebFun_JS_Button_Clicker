@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- nav bar section -->
+    <div class="navbar">
+        <h1 class="nav-title">Dojonary</h1>
+        <input type="text" placeholder="Search" class="searchbar">
+        <button class="nav-button" onclick="logOut(this)">Login</button>
+    </div>
+    <!-- main-body -->
+    <div class="main-body">
+        <!-- left section -->
+        <div class="left-side">
+            <div class="section-1">
+                <div class="s1-l">
+                    <h1>ninja</h1>
+                    <h4><em>noun</em></h4>
+                    <h3>Plural: <em>ninjas</em></h3>
+                    <button onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+                <div class="s1-r">
+                    <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>    
+            </div>
+            <div class="section-2">
+                <div class="s2-l">
+                    <h1>ninja</h1>
+                    <h4><em>noun</em></h4>
+                    <h3>Plural: <em>ninjas</em></h3>
+                    <button>37 likes</button>
+                </div>
+                <div class="s2-r">
+                    <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>    
+            </div>
+        </div>
+        <!-- right section -->
+        <div class="right-side">
+            <div class="section-3">
+                <h2>Dictionary is defind by <strong>YOU</strong></h2>
+                <button onclick="hide(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
